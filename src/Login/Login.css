@@ -1,0 +1,85 @@
+.LoginInicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+.email-login{
+     border-bottom: 1px solid black; 
+     width: 107%;
+
+   
+     
+}
+
+.email-login > input{
+    border: none;
+    font-family: "Jacques François";
+    width: 100%;
+    outline: none;
+  
+}
+
+.senha-login{
+    border-bottom: 1px solid black; 
+    width: 107%;
+}
+
+.senha-login > input{
+    border: none;
+    font-family: "Jacques François";
+    width: 100%;
+    outline: none;
+}
+
+.button-login{
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 107%;
+  }
+
+  .button-login {
+    background-color: #333;
+  }
+  
+ .forgot-password > p{
+    color: rgb(105, 104, 104);
+    font-family: "inter";
+    text-decoration: none;
+   
+ }
+
+ .span-password{
+    color: black;
+ }
+
+ 
